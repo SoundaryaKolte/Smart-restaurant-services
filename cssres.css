@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(48, 46, 46);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: whitesmoke;
+
+}
+.bg{
+    background-image: url(bg.avif);
+    background-size: cover;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondtab{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.thirdtab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.thirdmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-itemo{
+  align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.box{
+    height: 250px;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    border-radius: 50px;
+    outline: none;
+    height: 50px;
+    width: 100px;
+    color: white;
+}

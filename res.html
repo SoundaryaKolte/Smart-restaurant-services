@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Payment Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Form</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name on Card</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration">Expiration Date</label>
+                <input type="text" id="expiration" name="expiration" placeholder="MM/YY" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="amount">Amount to Pay</label>
+                <input type="number" id="amount" name="amount" required>
+            </div>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+</body>
+</html>
